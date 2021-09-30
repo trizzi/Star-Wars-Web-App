@@ -38,6 +38,9 @@ body {
 	font-size: 15px;
 	font-family: inherit;
 }
+.btn i {
+	padding-left: 2rem;
+}
 .btn:focus {
 	outline: none;
 }
@@ -70,4 +73,9 @@ body {
 .image {
 	display: block;
 	padding: 3rem;
+}
+
+ul li a {
+	color: yellow;
+	text-decoration: none;
 }

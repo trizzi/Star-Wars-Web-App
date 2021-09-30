@@ -1,9 +1,15 @@
 import PropTypes from 'prop-types';
 
-const Button = ({ onClick }) => {
+const Button = ({ onClick, onBla }) => {
 	return (
-		<button className='btn btn-block' onClick={onClick}>
+		<button
+			className='btn btn-block'
+			onClick={() => {
+				onClick();
+				onBla();
+			}}>
 			Star Wars Movie
+			<i className='fas fa-chevron-down'></i>
 		</button>
 	);
 };

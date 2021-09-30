@@ -1,8 +1,9 @@
 const Movie = ({ movie }) => {
 	return (
 		<li>
-			<a>{movie.movie}</a>
-			{movie.year}
+			<a href='#'>
+				{movie.movie} {movie.year}
+			</a>
 		</li>
 	);
 };
